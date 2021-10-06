@@ -6,7 +6,7 @@
 #ifdef _WIN32
 # include <windows.h>
 #else
-# include <dlfcn.h>
+//# include <dlfcn.h>
 #endif  // _WIN32
 
 using lottie_image_load_f = unsigned char *(*)(const char *filename, int *x,
